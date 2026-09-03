@@ -1,10 +1,5 @@
-'''
-
-msg = "I feel the python power!"
-print(msg)
-msg = "python sucks!"
-print(msg)
-'''
+# Andre Pereira
+# Chapter 2
 singer = "travis scott"
 print(singer)
 print(singer.title())
