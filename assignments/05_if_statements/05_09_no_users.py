@@ -1,0 +1,24 @@
+# Andre Pereira
+# Chapter 5
+usernames = ['admin', 'eric', 'jessica', 'david', 'sarah']
+
+if usernames:
+    for username in usernames:
+        if username == 'admin':
+            print("Hello admin, would you like to see a status report?")
+        else:
+            print(f"Hello {username.title()}, thank you for logging in again.")
+else:
+    print("We need to find some users!")
+
+# Removing all usernames to test the empty condition
+usernames = []
+
+if usernames:
+    for username in usernames:
+        if username == 'admin':
+            print("Hello admin, would you like to see a status report?")
+        else:
+            print(f"Hello {username.title()}, thank you for logging in again.")
+else:
+    print("We need to find some users!")
